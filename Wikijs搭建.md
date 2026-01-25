@@ -2,13 +2,13 @@
 title: Wikijs搭建
 description: 使用Docker快速搭建Wikijs
 published: true
-date: 2026-01-25T16:22:58.950Z
+date: 2026-01-25T16:24:33.130Z
 tags: 
 editor: markdown
 dateCreated: 2026-01-25T16:22:58.950Z
 ---
 
-# WikiJS搭建说明
+# Wiki.js搭建说明
 `docker-compose.yml`
 ```yaml
 version: "3.9"
