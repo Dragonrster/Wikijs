@@ -2,7 +2,7 @@
 title: Carpet 规则启用概览
 description: 
 published: true
-date: 2026-02-03T08:32:28.668Z
+date: 2026-02-03T17:42:25.090Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-03T08:32:28.668Z
@@ -32,7 +32,7 @@ dateCreated: 2026-02-03T08:32:28.668Z
 
 ---
 
-### 生存 / 物品
+### 物品
 - **潜影盒可堆叠**  
   - ID: `shulkerBoxStackable`  
 
@@ -47,7 +47,7 @@ dateCreated: 2026-02-03T08:32:28.668Z
 
 ---
 
-### 工具 / 趣味
+### 工具 
 - **仙人掌扳手**  
   - ID: `flippinCactus`  
 
